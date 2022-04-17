@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.first-div {
+    width: 40%;
+    height: 40%;
+    display: flexbox;
+    text-align: center;
+    justify-content: space-between;
+    float: left;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+   
+}
+.second-div {
+    width: 40%;
+    height: 40%;
+    display: flexbox;
+    text-align: center;
+    justify-content: space-between;
+    float: right;
+    padding-top: 0%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    
+}
+
+.footer {
+    bottom: 25px;
+    height: 10px;
+    left: 5px;
+    right:5px;
+    font-size: 8px;
+    color: #999999 ;
+    text-align: center;
+    position: fixed;
+    
+
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.subheader {
+    float: right;
+}
